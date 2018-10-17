@@ -79,7 +79,25 @@ public class CommonEntity {
     }
 }
 
+For Direct Json Array
 
+@SerializedName("name")
+    @Expose
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    in Fragment
+    List<CommonEntity> list = null;
+    
+    list = response.body();
+    
 
 //import com.google.gson.annotations.SerializedName;
 
