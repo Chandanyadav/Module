@@ -1,4 +1,11 @@
 # Module
+
+ // retrofit, gson
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+
+
 //ApiClient
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -49,6 +56,7 @@ public interface ApiInterface {
 
 
 //CommonEntity
+
 import com.google.gson.annotations.SerializedName;
 
 import java.util.ArrayList;
