@@ -98,6 +98,11 @@ For Direct Json Array
     
     list = response.body();
     
+    //For Hashmap
+    @FieldMap Map<String, String> params
+    
+    //For Json Object
+    Call<String> updateorder(@Body JsonObject object);
 
 //import com.google.gson.annotations.SerializedName;
 
